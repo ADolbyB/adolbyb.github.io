@@ -1,0 +1,33 @@
+/** Added this to remove annoying side borders */
+
+.full-screen-portfolio .container-fluid,
+.full-screen-portfolio .col-md-3, .col-sm-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#mydiv {                               /* Bar above Portfolio Links */
+   height: 70px;
+   background-color:#313131;
+}
+
+#mydiv p {                             /* Text inside Bar */
+   text-align: center;
+   color: #fff;
+   font-weight: 200;
+   font-size: 20px;
+   text-transform: capitalize;
+   padding-top: 20px;
+   letter-spacing: 0.5px;
+}
+
+h4 a {                                 /* Contact Me Links in Side Nav Bar */
+   color:rgba(60, 177, 255, 0.808);
+   text-decoration: none;
+   transition: all 0.25s;
+}
+
+h4 a:hover {
+   color: rgba(255, 97, 97, 0.5);
+   text-decoration: none;
+}
