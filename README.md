@@ -1,3 +1,8 @@
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/AdolbyB/joel?label=Repo%20Size&logo=github&logoColor=lightgreen">
+</p>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ADolbyB/adolbyb.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
