@@ -1,0 +1,175 @@
+:root {
+   min-width: 950px;
+}
+
+#sliderIndicator {
+   margin: 15px;
+   padding: 8px;
+   background-color: cadetblue;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(124, 195, 223);
+   font-family: Tahoma, sans-serif;
+}
+
+.slider-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+ }
+ 
+ #darkModeSlider {
+   width: 50px;
+   margin: 40px 10px;
+ }
+ 
+ #sliderIndicator {
+   font-size: 28px;
+ }
+
+.darkMode {
+   background-color: black;
+   color: rgb(124, 195, 223);
+}
+
+.darkMode .myPics, .darkMode #mytable td, .darkMode #mytable th,
+.darkMode section, .darkMode article, .darkMode aside {
+   border: 2px solid rgb(124, 195, 223);
+}
+
+.darkMode footer {
+   border: 2px solid rgb(124, 195, 223);
+}
+
+.darkMode h2 {
+   color: springgreen;
+}
+
+header {
+   background-image: url("./img/bahamas.jpg");           /* image source: copyright Joel Brigida (personal photo) */
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   height: 100vh;
+   display: flex;
+   /* align-items: center; */                            /* Will Center top to bottom */
+   justify-content: center;
+}
+
+#nameTitle {
+   padding: 10px;
+   background-color: cadetblue;
+}
+
+nav {
+   margin: 0px;
+   text-align: center;
+   font: 14pt 'Courier New';
+}
+
+nav a {
+   padding: 0px 5px;
+   text-decoration: none;
+}
+
+nav a:hover { color: red; }                            /* color of links when hovering */
+nav a:active { color: blue; }
+nav a:visited { color: #535353; }                      /* color of links when clicked */
+
+article {
+   border: 2px solid black;
+   margin: 20px;
+   padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
+}
+
+section {
+   border: 2px solid black;
+   margin: 20px;
+   padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
+}
+
+aside {
+   border: 2px solid black;
+   margin: 20px;
+   padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
+}
+
+h1 {
+   color: black;
+}
+
+h2 {
+   color: rgb(175, 0, 0);
+}
+
+#pagetitle {
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 50px;
+   text-align: center;
+}
+
+#image1 {
+   text-align: center;
+   margin: 20px;
+   padding: 30px;
+}
+
+#image2 {
+   text-align: center;
+   margin: 20px;
+   padding: 30px;
+}
+
+.myPics {
+   display: inline-block;
+   background-color: cadetblue;
+   border: 3px double black;
+   padding: 20px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#mytable {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+   margin-top: 50px;
+   width: 850px;
+   border: 3px solid black;
+}
+
+#mytable td, th {
+   border: 1px solid black;
+}
+
+.title_table {
+   text-align: left;
+}
+
+footer {
+   border: 2px solid black;
+   margin-top: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   padding: 30px;                                        /* Order: Top/Bottom, Right/Left */
+}
+
+footer a {
+   font: Tahoma, sans-serif;
+   text-decoration: none;
+}
+
+footer a:hover { color: red; }                         /* color of links when hovering */
+footer a:active { color: blue; }
+footer a:visited { color: #535353; }                   /* color of links when clicked */

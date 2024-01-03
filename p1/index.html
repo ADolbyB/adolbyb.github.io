@@ -1,12 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- <meta http-equiv="refresh" content="5"> -->
+
+   <meta name="experimental" content="This is Joel's 1st live web page.">     <!-- 200 char max for content description -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="Joel,Brigida,Joel Brigida">                 <!-- 1000 char max for keywords (used for search engines) -->
+   <meta name="robots" content="index,follow,archive">                        <!-- search engines: index page, follow & index hyperlinks in page, archive page -->
+   
+   <link rel="stylesheet" href="./styles.css">                                <!-- link to the CSS style file -->
+   <title>Joel Brigida: Project 1</title>
+
+   <link rel="shortcut icon" type="image/png" href="./icon/favicon.png">
 </head>
+
 <body>
-    - Project 1 Under Construction -
+   <header>
+      <h1 id="pagetitle"><span id="nameTitle">Joel Brigida's Resume</span>         
+      <input type="range" id="darkModeSlider" min="0" max="1" step="1" value="0">
+      <span id="sliderIndicator">Light</span>
+      <nav>
+         <a href="https://joelbrigida.com" title="Joel's Project Index">Back to Project Index</a>
+         <a href="mailto:jbrigida2019@fau.edu" title="Send me an email">Email</a>
+         <a href="tel:774-244-7433" title="My Cell Phone">Call / Text</a>
+         <a href="https://github.com/ADolbyB/" title="GitHub: ADolbyB" target="_blank">GitHub</a>
+         <a href="http://www.linkedin.com/in/joelmbrigida" title="Joel Brigida" target="_blank">LinkedIn</a>
+      </nav>
+   </header>
+
+   <section>                        <!-- Start of Text Containers under BG photo -->
+      <div id="image1">
+         <img src="./img/Joel_2.png" alt="Joel Brigida" class="myPics">
+      </div>
+      <h2>About Me:</h2>
+      <p>
+         <ul id="about_me">
+            <li>Excellent critical thinking skills.<br><br></li>
+            <li>Comprehensive background as a Shop Foreman and Technical Trainer in the Automotive Repair field.<br><br></li>
+            <li>Extensive history of exceptional work ethic.<br><br></li>
+            <li>Wide knowledge beyond repairs and diagnostics.<br><br></li>
+            <li>Robustly qualified and experienced in high-volume, fast-paced, demanding environments.<br><br></li>
+            <li>Willingness to learn and teach new techniques.<br><br></li>
+            <li>Motivated, hard working, reliable, and productive.<br><br></li>
+         </ul>
+      </p>
+   </section>
+
+   <section>
+      <div id="image2">
+         <img src="./img/Joel_3.png" alt="Joel Brigida" class="myPics">
+      </div>
+      <table id="mytable">
+         <caption><h2>Joel's Skillsets:</h2></caption>
+         <tbody>  <!-- denotes the body of the Table (must be AFTER footer) -->
+            <tr>
+               <td colspan="4" class="title_table"><strong>&nbsp;Programming&nbsp;Languages:</strong></td>
+            </tr>
+            <tr>
+               <td colspan="1">C</td>
+               <td colspan="1">C++</td>
+               <td colspan="1">Python</td>
+               <td colspan="1">Jupyter Notebook</td>
+            </tr>
+            <tr>
+               <td colspan="1">VHDL</td>
+               <td colspan="1">FreeRTOS</td>
+               <td colspan="1">LaTeX</td>
+               <td colspan="1">BASH</td>
+            </tr>
+            <tr>
+               <td colspan="1">HTML5&nbsp;/&nbsp;CSS3</td>
+               <td colspan="1">JavaScript</td>
+               <td colspan="1">Node.js</td>
+               <td colspan="1">Bootstrap</td>
+            </tr>
+            <tr>
+               <td colspan="4" class="title_table"><strong>&nbsp;Software:&nbsp;</strong></td>
+            </tr>
+            <tr>
+               <td colspan="1">Linux OS</td>
+               <td colspan="1">MS&nbsp;Windows&nbsp;OS</td>
+               <td colspan="1">VMWare</td>
+               <td colspan="1">VirtualBox</td>
+            </tr>
+            <tr>
+               <td colspan="1">GitHub</td>
+               <td colspan="1">GitHub Actions</td>
+               <td colspan="1">MS&nbsp;Office&nbsp;Products</td>
+               <td colspan="1">Microsoft Teams</td>
+            </tr>
+            <tr>
+               <td colspan="1">LibreOffice</td>
+               <td colspan="1">Visual Studio Code</td>
+               <td colspan="1">Google Colabs</td>
+               <td colspan="1">Xilinx Vivado</td>
+            </tr>
+            <tr>
+               <td colspan="1">KiCad</td>
+               <td colspan="1">PSpice (OrCad)</td>
+               <td colspan="1">GNU GDB Debugger</td>
+               <td colspan="1">Google Firebase</td>
+            </tr>
+            <tr>
+               <td colspan="1">Intuit&nbsp;QuickBooks</td>
+               <td colspan="1">AllData</td>
+               <td colspan="1">ShopKey</td>
+               <td colspan="1">Identifix</td>
+            </tr>
+            <tr>
+               <td colspan="4" class="title_table"><strong>&nbsp;Hardware&nbsp;Platforms:</strong></td>
+            </tr>
+            <tr>
+               <td colspan="1">Espressif ESP32</td>
+               <td colspan="1">Raspberry Pi</td>
+               <td colspan="1">TI MSP-430</td>
+               <td colspan="1">Nexys A7-100T FPGA</td>
+            </tr>
+            <tr>
+               <td colspan="4" class="title_table"><strong>&nbsp;Tools:&nbsp;</strong></td>
+            </tr>
+            <tr>
+               <td colspan="2">Siglent SDS 1104X-E 4ch Oscilloscope</td>
+               <td colspan="2">MFJ-269 HF - UHF Antenna Analyzer</td>
+            </tr>   
+            <tr>
+               <td colspan="2">Siglent SPD 3303X-E Power Supply</td>
+               <td colspan="2">Flipper Zero Portable RF Multi-Tool</td>
+            </tr>
+            <tr>
+               <td colspan="4" class="title_table"><strong>&nbsp;Other&nbsp;Skills:</strong></td>
+            </tr>
+            <tr>
+               <td colspan="1">Problem Solving</td>
+               <td colspan="1">Electrical Troubleshooting</td>
+               <td colspan="1">Time Management</td>
+               <td colspan="1">Work Dispatch</td>
+            </tr>
+            <tr>
+               <td colspan="1">Testing&nbsp;&amp;&nbsp;Quality&nbsp;Control</td>
+               <td colspan="1">Fault&nbsp;Reproduction</td>
+               <td colspan="1">Shop&nbsp;Management</td>
+               <td colspan="1">Technical&nbsp;Training</td>
+            </tr>
+            <tr>
+               <td colspan="1">RF&nbsp;Parts&nbsp;&amp;&nbsp;Service</td>
+               <td colspan="1">&nbsp;Electrical&nbsp;Troubleshooting&nbsp;</td>
+               <td colspan="2">&nbsp;German&nbsp;Auto&nbsp;Parts&nbsp;&amp;&nbsp;Service&nbsp;</td>
+            </tr>
+         </tbody>
+      </table>
+   </section>
+
+   <section>
+      <h2>Work History:</h2>
+      <ul id="work_hist">
+         <li>Dark Ridge, LLC: West Palm Beach, FL | September, 2013 - Present<br>
+            <strong>Owner</strong>
+            <ul><br>
+               <li>Past and present part time subcontractor for local businesses.</li>
+               <li>Domestic and Foreign Field Service Contracts Include:<br>
+                  <ul>
+                     <li>Home and Small Business General IT Service.</li>
+                     <li>Radio Frequency Site Equipment Service.</li>
+                     <li>Auto Repair and Diagnostics.</li>
+                     <li>Automotive Technical Training.</li>
+                     <li>Auto Repair.
+                  </ul></li>
+            </ul><br></li>
+         <li>Precision Automotive: Delray Beach, FL | August, 2009 - April, 2015<br>
+            <strong>Shop Manager</strong>
+               <ul><br>
+                  <li>Direct customer facing job including service writing and advising, in addition to repair work.</li>
+                  <li>Expanded experience base to multiple European car lines and their associated diagnostic platforms.</li>
+                  <li>Leadership role included foreman duties, parts and supplies organizing, opening and closing shop.</li>
+                  <li>Gained knowledge in use of web marketing tools and online directory service coordination.</li>
+               </ul><br></li>
+         <li>Braman Motorcars: West Palm Beach, FL | May, 2004 - July, 2009<br>
+            <strong>BMW Master Technician, Team Leader</strong>
+               <ul><br>
+                  <li>Achieved Team Leader in charge of job dispatch, QC, and management of up to 8 other technicians.</li>
+                  <li>Advanced work experience with warranty, insurance claim, and customer pay type work.</li>
+                  <li>Broadened skill level to include fixed-glass replacement, convertible top repair, and upholstery repairs.</li>
+               </ul><br></li>
+         <li>Elite Auto Repair: Warwick, RI | February, 2003 - August, 2003<br>
+            <strong>Lexus and Toyota Line Technician</strong>
+               <ul><br>
+                  <li>Worked as an apprentice under two Master Lexus Technicians while attending College.</li>
+                  <li>Developed trusting relationship with employer and responsible for opening shop at times.</li>
+                  <li>Strengthened familiarization of oxyacetylene torch use on a daily basis for seized fasteners.</li>
+               </ul><br></li>
+         <li>AutoSports: Kingston, MA | 1999 - February, 2003<br>
+            <strong>Line Technician</strong>
+               <ul><br>
+                  <li>Worked as an apprentice while attending High School and College.</li>
+                  <li>Learned electrical system troubleshooting and light line mechanical work.</li>
+               </ul></li>
+      </ul>
+   </section>
+
+   <article>
+      <h2>Education History:</h2>
+      <ul id="educ_hist">
+         <li>Florida Atlantic University: Boca Raton, FL | August 2019 - Present<br>
+            <strong>Bachelor of Science in Computer Engineering</strong><br>
+            <ul>
+               <li>FAU President's Honors List:
+               <ul>
+                  <li><strong>Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021.</strong>
+               </ul></li><br>
+               <li>FAU Engineering Dean's List:
+               <ul>
+                  <li><strong>Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2023.</strong>
+               </ul></li>
+            </ul><br></li>
+         <li>BMW STEP Training Facility: Orlando, FL | September, 2003 - April, 2004<br>
+            <strong>Specialized model training for the repair of BMW Automobiles</strong><br><br></li>
+         <li>New England Institute of Technology: Warwick, RI | October, 2001 - March, 2003<br>
+            <strong>Associate in Science of Advanced Automotive Technology</strong><br>
+            <ul>
+               <li>NEIT Dean's List 5 of 6 terms.</li>
+               <li>Elected to Who's Who Among Students in America's Universities: <strong>2002 - 2003</strong></li>
+               <li>Won Rhode Island State SkillsUSA / VICA Automotive Competition: <strong>2003</strong><br>
+                  <ul>
+                     <li>Placed 14th in National Competition, 2003 in Kansas City, Missouri.</li>
+                  </ul></li>
+            </ul></li>
+      </ul>
+   </article>
+
+   <aside>
+      <h2>Accreditations:</h2>
+      <ul id="accred_list">
+         <li>Inducted to Tau Beta Pi Engineering Honor Society: December 2021.<br><br></li>
+         <li>Inducted to Phi Kappa Phi Honor Society: May 2022.<br><br></li>
+         <li>Awarded Foundation for Amateur Radio Scholarship: 2021.<br><br></li>
+         <li>Awarded National Science Foundation S-STEM Scholarship: 2023.<br><br></li>
+         <li>FCC Radio Licenses: Amateur Extra, Restricted Radiotelephone, General Mobile Radio Service.<br><br></li>
+         <li>US Customs and Border Protection Global Entry Trusted Traveler, including TSA PreCheck.<br><br></li>
+         <li>Former Committee Chairman of Violations Committee and Screening Committee at Palm Lake Condominiums.<br><br></li>
+         <li>MACS EPA 609 certification for Mobile Air Conditioning Repair.<br></li>
+      </ul>
+   </aside>
+
+   <footer>
+      <small>Last Updated: Jan 3, 2024.</small>
+      <p><small>Thanks for visiting! <a href="./index.html">Jump to Top of Page</a></small>    <!-- Link to jump to top of page --></p>
+      <small>Copyright &copy; 2021 Joel Brigida</small>
+   </footer>
+
+   <!-- JS File For Dark Mode -->
+   <script src="./darkToggle.js"></script>
+
 </body>
 </html>
