@@ -1,0 +1,44 @@
+.navcolor {
+   background-color: cadetblue;
+}
+
+.anothercolor{
+   color: rgb(59, 112, 155);
+}
+
+.anothercolor2{
+   color: rgb(54, 154, 179);
+}
+
+.anothercolor3 {
+   color: rgb(116, 88, 182);
+}
+
+.anothercolor4 {
+   color: rgb(11, 226, 162);
+}
+
+.customtext {
+   color: rgb(219, 44, 82);
+}
+
+.capitalize {
+   text-transform: capitalize;
+}
+
+.allcaps {
+   text-transform: uppercase;
+}
+
+#mytable {
+   text-align: center;
+   margin-left: 10px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   width: 250px;
+   border: 2px solid black;
+}
+
+.title_table {
+   text-align: center;
+}

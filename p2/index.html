@@ -1,12 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Joel's Live Web Page Project 2"/>
+    <meta name="author" content="Joel Brigida"/>
+    <title>Joel Brigida: Project 2</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <!-- My CSS Tweaks -->
+    <link href="./css/custom.css" rel="stylesheet">
 </head>
-<body>
-    - Project 2 Under Construction -
+
+<body id="page-top">        <!-- Navigation Side Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light navcolor fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none capitalize">Joel Brigida</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/Joel_2.png" alt="Joel Brigida" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://joelbrigida.com">Back to Project Index</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Joel</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skillsets</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Work History</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Accreditations</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container-fluid p-0">                   <!-- Page Content Container -->
+        <section class="resume-section" id="about">     <!-- About -->
+            <div class="resume-section-content" id="aboutDiv">
+                <h1 class="mb-2 capitalize">
+                    Joel<span class="text-info allcaps">&nbsp;Brigida</span>
+                </h1>
+                <div class="subheading mb-4 capitalize">
+                    West Palm Beach, FL 33415
+                </div>
+                <div class="subheading mb-4 capitalize">
+                    <i class="fas fa-caret-right text-info"></i>&nbsp;&nbsp;&nbsp;<a href="tel:774-244-7433" title="My Cell Phone">Call / Text Me</a><br>
+                    <i class="fas fa-caret-right text-info"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:jbrigida2019@fau.edu" title="Send me an Email">Email Me</a>
+                </div>
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/joelmbrigida" title="Joel Brigida" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/ADolbyB/" title="GitHub: ADolbyB" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <p class="lead mb-5">
+                    <h2 class="mb-5 text-info capitalize">About Me:</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Excellent Critical Thinking Skills.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Comprehensive background as a Shop Foreman and Technical Trainer in the Automotive Repair field.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Career-minded worker.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Extensive record of exceptional work ethic.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Wide knowledge beyond repairs and diagnostics.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Robustly qualified and experienced in high volume, fast-paced, demanding environments.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Willingness to learn and teach new techniques.
+                        </li><br>
+                        <li>
+                            <span class="fa-li anothercolor4"><i class="fas fa-cog fa-spin"></i></span>&nbsp;Motivated, hard working, reliable, and productive.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+        <hr class="m-0"/>
+
+        <section class="resume-section" id="skills">            <!-- Skills -->
+            <div class="resume-section-content" id="skillsDiv">
+                <h2 class= "text-info capitalize">Joel's Skillsets:</h2>
+                    <table id="mytable" class="table table-striped mb-5">
+                        <tbody>     <!-- denotes the body of the Table (must be AFTER footer) -->
+                            <tr>
+                                <td colspan="2" class="title_table"><strong>&nbsp;Programming&nbsp;Languages:</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">C</td>
+                                <td colspan="1">C++</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Python</td>
+                                <td colspan="1">Jupyter&nbsp;Notebook</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">VHDL</td>
+                                <td colspan="1">FreeRTOS</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">LaTeX</td>
+                                <td colspan="1">HTML5&nbsp;/&nbsp;CSS3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">JavaScript</td>
+                                <td colspan="1">Node.js</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Bootstrap</td>
+                                <td colspan="1">Bash</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="title_table"><strong>&nbsp;Software:&nbsp;</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Linux OS</td>
+                                <td colspan="1">VMWare</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">VirtualBox</td>
+                                <td colspan="1">MS&nbsp;Windows&nbsp;OS</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">GitHub</td>
+                                <td colspan="1">GitHub&nbsp;Actions</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">MS&nbsp;Office&nbsp;Products</td>
+                                <td colspan="1">Microsoft&nbsp;Teams</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">LibreOffice</td>
+                                <td colspan="1">Visual&nbsp;Studio&nbsp;Code</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Google&nbsp;Colabs</td>
+                                <td colspan="1">Xilinx&nbsp;Vivado</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">KiCad</td>
+                                <td colspan="1">PSpice (OrCad)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">GNU&nbsp;GDB&nbsp;Debugger</td>
+                                <td colspan="1">Google&nbsp;Firebase</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Intuit&nbsp;QuickBooks</td>
+                                <td colspan="1">AllData</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">ShopKey</td>
+                                <td colspan="1">Identifix</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="title_table"><strong>&nbsp;Hardware&nbsp;Platforms:</strong></td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Espressif ESP32</td>
+                                <td colspan="1">Raspberry Pi</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">TI MSP-430</td>
+                                <td colspan="1">Nexys A7-100T</td>
+                            </tr>
+                        </tbody>
+                </table>
+                <div class="subheading mb-3 capitalize customtext">Skills&nbsp;&amp;&nbsp;Solutions&nbsp;for:</div>   
+                <div class="subheading capitalize mb-3">
+                    <ul class="list-inline-item mb-3">
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor2">&nbsp;&nbsp;Electrical Troubleshooting.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor3">&nbsp;&nbsp;RF Testing &amp; Interference Tracking.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor2">&nbsp;&nbsp;Auto Repair Technical Training.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor3">&nbsp;&nbsp;Mobile &amp; Portable Power and Communications.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor2">&nbsp;&nbsp;Workshop Management.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor3">&nbsp;&nbsp;Testing &amp; Quality Control.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor2">&nbsp;&nbsp;Fault Reproduction.</span>
+                            </li><br>
+                        <li class="list-inline-item"><i class="far fa-dot-circle anothercolor"></i>
+                            <span class="anothercolor3">&nbsp;&nbsp;German Auto Parts &amp; Service.</span>
+                            </li>
+                    </ul>
+                <div class="subheading mb-3 capitalize">
+                    <ul class="list-inline-item dev-icons text-center mb-3">
+                        <li class="list-inline-item anothercolor"><i class="fa fa-microchip"></i></li>
+                        <li class="list-inline-item anothercolor"><i class="fa fa-battery-three-quarters"></i></li>
+                        <li class="list-inline-item anothercolor"><i class="fa fa-file-code"></i></li>
+                        <li class="list-inline-item anothercolor"><i class="fa fa-laptop-code"></i></li>
+                        <li class="list-inline-item anothercolor"><i class="fab fa-raspberry-pi"></i></li>
+                    </ul><br>
+                    <ul class="list-inline-item dev-icons mb-3">
+                        <li class="list-inline-item anothercolor2"><i class="fa fa-calculator"></i></li>
+                        <li class="list-inline-item anothercolor2"><i class="fa fa-credit-card"></i></li>
+                        <li class="list-inline-item anothercolor2"><i class="fa fa-car"></i></li>
+                        <li class="list-inline-item anothercolor2"><i class="fa fa-cogs"></i></li>
+                        <li class="list-inline-item anothercolor2"><i class="fas fa-code-branch"></i></li>
+                    </ul><br>
+                    <ul class="list-inline-item dev-icons mb-3">
+                        <li class="list-inline-item anothercolor3"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item anothercolor3"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item anothercolor3"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item anothercolor3"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item anothercolor3"><i class="fab fa-python"></i></li>
+                    </ul><br>
+                </div> 
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+
+        <section class="resume-section" id="experience">        <!-- Experience -->
+            <div class="resume-section-content" id="experienceDiv">
+                <h2 class="mb-5 text-info capitalize">Work History:</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Dark Ridge, LLC:&nbsp;<span class="capitalize">&nbsp;West Palm Beach, FL</span></h3>
+                        <div class="subheading mb-3 capitalize">Managing Member</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li anothercolor3"><i class="fas fa-plus-square"></i></span>&nbsp;Past and present part time subcontractor for local businesses.
+                                </li>
+                                <li>
+                                    <span class="fa-li anothercolor3"><i class="fas fa-plus-square"></i></span>&nbsp;Domestic and Foreign Field Service Contracts Include:
+                                <ul class="fa-ul mb-0">
+                                    <li>
+                                        <span class="fa-li anothercolor"><i class="far fa-plus-square"></i></span>&nbsp;Home and Small Business General IT Service.
+                                    </li>
+                                    <li>
+                                        <span class="fa-li anothercolor"><i class="far fa-plus-square"></i></span>&nbsp;Radio Frequency Site Equipment Service.
+                                    </li>
+                                    <li>
+                                        <span class="fa-li anothercolor"><i class="far fa-plus-square"></i></span>&nbsp;Auto Repair and Diagnostics.
+                                    </li>
+                                    <li>
+                                        <span class="fa-li anothercolor"><i class="far fa-plus-square"></i></span>&nbsp;Automotive Technical Training.
+                                    </li>
+                                    <li>
+                                        <span class="fa-li anothercolor"><i class="far fa-plus-square"></i></span>&nbsp;Auto Repair.
+                                </ul></li>
+                            </ul></li>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">September, 2013 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Precision Automotive:&nbsp;<span class="capitalize">&nbsp;Delray Beach, FL</span></h3>
+                        <div class="subheading mb-3 capitalize">Shop Manager</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Direct customer facing job including service writing and advising, in addition to repair work.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Expanded experience base to multiple European car lines and their associated diagnostic platforms.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Leadership role included foreman duties, parts and supplies organizing, opening and closing shop.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Gained knowledge in use of web marketing tools and online directory service coordination.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">August, 2009 - April, 2015</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Braman Motorcars:&nbsp;<span class="capitalize">&nbsp;West Palm Beach, FL</span></h3>
+                        <div class="subheading mb-3 capitalize">BMW Master Technician, Team Leader</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-plus-square"></i></span>&nbsp;Achieved Team Leader in charge of job dispatch, QC, and management of up to 8 other technicians.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-plus-square"></i></span>&nbsp;Advanced work experience with warranty, insurance claim, and customer pay type work.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-plus-square"></i></span>&nbsp;Broadened skill level to include fixed-glass replacement, convertible top repair, and upholstery repairs.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">May, 2004 - July, 2009</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Elite Auto Repair:&nbsp;<span class="capitalize">&nbsp;Warwick, RI</span></h3>
+                        <div class="subheading mb-3 capitalize">Lexus and Toyota Line Technician</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor3"><i class="fas fa-plus-square"></i></span>&nbsp;Worked as an apprentice under two Master Lexus Technicians while attending College.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor3"><i class="fas fa-plus-square"></i></span>&nbsp;Developed trusting relationship with employer and responsible for opening shop at times.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor3"><i class="fas fa-plus-square"></i></span>&nbsp;Strengthened familiarization of oxyacetylene torch use on a daily basis for seized fasteners.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">February, 2003 - August, 2003</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">AutoSports:&nbsp;<span class="capitalize">&nbsp;Kingston, MA</span></h3>
+                        <div class="subheading mb-3 capitalize">Line Technician</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Worked as an apprentice while attending High School and College.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor2"><i class="fas fa-plus-square"></i></span>&nbsp;Learned electrical system troubleshooting and light line mechanical work.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">1999 - February, 2003</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+
+        <section class="resume-section" id="education">            <!-- Education -->
+            <div class="resume-section-content" id="educationDiv">
+                <h2 class="mb-5 text-info capitalize">Education:</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Florida Atlantic University:<span class="capitalize">&nbsp;Boca Raton, FL</span></h3>
+                        <div class="subheading mb-3 capitalize">Bachelor of Science in Computer Engineering&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;GPA: 3.95 / 4.0</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-check-square"></i></span>&nbsp;FAU President's Honors List
+                                <ul class="fa-ul mb-0">
+                                    <li>
+                                        <span class="fa-li anothercolor2"><i class="far fa-check-square"></i></span>&nbsp;<strong>Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021.</strong>
+                                    </li>
+                                </ul></li>
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-check-square"></i></span>&nbsp;FAU Engineering Dean's List
+                                <ul class="fa-ul mb-0">
+                                    <li>
+                                        <span class="fa-li anothercolor2"><i class="far fa-check-square"></i></span>&nbsp;<strong>Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2023.</strong>
+                                    </li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">August 2019 - Current</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">BMW STEP Training Facility:<span class="capitalize">&nbsp;Orlando, FL</span></h3>
+                        <div class="subheading mb-3 capitalize">Specialized Model Training</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor3"><i class="fas fa-check-square"></i></span>&nbsp;Certified BMW Technical Training courses for all models up to current product line.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor3"><i class="fas fa-check-square"></i></span>&nbsp;BMW Dealer employment contract included advanced training courses as new models were released.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">September 2003 - April 2004</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">New England Institute of Technology:<span class="capitalize">&nbsp;Warwick, RI</span></h3>
+                        <div class="subheading mb-3 capitalize">Associate of Advanced Automotive Technology&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;GPA: 3.86 / 4.0</div>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-check-square"></i></span>&nbsp;NEIT Dean's List 5 of 6 terms.
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-check-square"></i></span>&nbsp;Elected to Who's Who Among Students in America's Universities: <strong>2002&nbsp;-&nbsp;2003</strong>
+                            </li>
+                            <li>
+                                <span class="fa-li anothercolor"><i class="fas fa-check-square"></i></span>&nbsp;Won Rhode Island State SkillsUSA VICA Automotive Competition:<strong>&nbsp;2003</strong>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li anothercolor3"><i class="far fa-check-square"></i></span>&nbsp;<strong>Placed 14th in National Competition</strong>, 2003 in Kansas City, Missouri.
+                                </li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="customtext">October 2001 - March 2003</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+
+        <section class="resume-section" id="awards">    <!-- Accreditations -->
+            <div class="resume-section-content" id="awardsDiv">
+                <h2 class="mb-4 capitalize text-info">Accreditations:</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Inducted to Tau Beta Pi Engineering Honor Society: December 2021.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Inducted to Phi Kappa Phi Honor Society: May 2022.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Awarded Foundation for Amateur Radio Scholarship: 2021.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Awarded National Science Foundation S-STEM Scholarship: 2023.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        FCC Radio Licenses: Amateur Extra, Restricted Radiotelephone, General Mobile Radio Service.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        US Customs and Border Protection Global Entry Trusted Traveler, including TSA PreCheck.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Former Committee Chairman of Violations Committee and Screening Committee at Palm Lake Condominiums.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        MACS EPA 609 licensed for mobile air conditioning repair since January, 2004.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Small business owner since 2013.
+                    </li><br>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-star fa-spin text-warning"></i></span>
+                        Homeowner since 2005.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section" id="bottomContainer">   <!-- Footer -->
+            <div class="resume-section-content" id="bottomContainerDiv">
+                <small>Thanks for visiting!<br>
+                Last Updated: Jan 3, 2024.<br>
+                &copy; Joel Brigida 2021</small><br>
+                <a href="./index.html">Jump to Top of Page</a>
+                <!-- Bootstrap template Available Here: https://startbootstrap.com/theme/resume" -->
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script><!-- Bootstrap core JS -->
+    <script src="./js/scripts.js"></script><!-- Core theme JS -->
 </body>
 </html>
