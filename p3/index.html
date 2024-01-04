@@ -1,12 +1,119 @@
-<!DOCTYPE html>
+<!DOCTYPE html>		<!-- bootstrap theme: https://colorlib.com/wp/template/contact-form-v15/ -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Project 3: JavaScript Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+
+	<link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="./vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="./vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="./vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="./vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="./css/mytweaks.css">
+	<link rel="stylesheet" type="text/css" href="./css/util.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
 </head>
 <body>
-    - Project 3 Under Construction -
+	<!-- Generic Bootstrap Themed Nav bar -->
+	<nav class="navbar navbar-light bg-light static-top">
+		<div class="container">
+			<span class="navbar-brand" href="#!">JavaScript Calculator</span>
+			<a class="contact100-form-btn submit someLink" href="https://joelbrigida.com">Back To My Projects</a>
+		</div>	<!-- Footer Link Color: main.css Line 43 -->
+	</nav>
+
+	<div class="container-contact100">
+		<div class="contact100-map" id="myBackground">
+			<!-- background image source: https://startbootstrap.com/previews/landing-page -->
+			<!-- background image link located in Bootstrap "main.css" line 169 -->
+		</div>
+
+		<div class="wrap-contact100">
+			<div class="contact100-form-title" style="background-image: url(./images/oneszeros.jpg);">
+				<!-- form background image source: https://www.wallpaperbetter.com/3d-and-abstract-wallpaper/		cool-code-abstract-178809 -->
+				<span class="contact100-form-title-1">JavaScript Calculator</span>
+				<span class="contact100-form-title-2">Enter Numbers Separated by Commas</span>
+			</div>
+
+			<form class="contact100-form validate-form">
+				<div class="wrap-input100 validate-input" data-validate="Numerical Entry Required">
+					<span class="label-input100">Number Set:</span>
+					<input class="input100" type="text" name="userInput" id="userInput" placeholder="Ex: 22, 11, 45, 6, . . . , etc.">
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="container-contact100-form-btn">
+					<button type="button" class="contact100-form-btn submit" onclick="calculate()">Calculate</button>
+				</div> 
+				<!-- main.css line 365 changes background color of button line 386 changes hover color -->
+				<div class="wrap-input100">
+					<span class="label-input100">Minimum:</span>
+					<input class="input100" type="text" name="minOutput" id="minOutput">
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Maximum:</span>
+					<input class="input100" type="text" name="maxOutput" id="maxOutput">
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Mean:</span>
+					<input class="input100" type="text" name="meanOutput" id="meanOutput">
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Median:</span>
+					<input class="input100" type="text" name="medianOutput" id="medianOutput">
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Range:</span>
+					<input class="input100" type="text" name="rangeOutput" id="rangeOutput">
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer class="footer bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+					<ul class="list-inline mb-2">
+						<li class="list-inline-item"><a href="tel:774-244-7433" title="My Cell Phone">Call / Text Me</a></li>
+						<li class="list-inline-item">⋅</li>
+						<li class="list-inline-item"><a href="mailto:jbrigida2019@fau.edu" title="Send me an Email">Email Me</a></li>
+					</ul>	<!-- Footer Link Color: main.css Line 43 -->
+					<p class="text-muted small mb-2 mb-lg-0">
+						&copy; Joel Brigida 2021. All Rights Reserved.
+					</p>
+				</div>
+				<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+					<ul class="list-inline m-4">
+						<li class="list-inline-item">
+							Joel's Networks:
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.linkedin.com/in/joelmbrigida" title="Joel Brigida" target="_blank">
+							<i class="fab fa-linkedin fa-3x faicons"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://github.com/ADolbyB/" title="GitHub: ADolbyB" target="_blank">
+							<i class="fab fa-github-square fa-3x faicons"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script> <!-- Font Awesome icons (free version)-->
+	<script src="./js/scripts.js"></script> <!-- Core theme JS -->
+	<script src="./js/main.js"></script> <!-- JS For Calculations -->
+
 </body>
 </html>
