@@ -26,3 +26,8 @@ a:hover {
 .faicons:hover {
    color: rgb(175, 14, 14);
 }
+
+footer.footer {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
