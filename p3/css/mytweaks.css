@@ -1,0 +1,28 @@
+h1, h2, h3, h4 {
+   color: rgb(9, 201, 201);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.someLink:hover {
+   color: white;
+}
+
+a:hover {
+   color: rgb(175, 14, 14);
+}
+
+.btn:hover {
+   color:rgb(175, 14, 14)
+}
+
+.signup-form {
+   text-align: center;
+}
+
+.faicons {
+   color: blue;
+}
+
+.faicons:hover {
+   color: rgb(175, 14, 14);
+}
