@@ -3,12 +3,23 @@ h1, h2, h3, h4 {
    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.customNav {
+   background-color: rgb(38, 221, 221);
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
 .someLink:hover {
    color: white;
 }
 
 a:hover {
    color: rgb(175, 14, 14);
+}
+
+.buttonDiv {
+   padding-top: 5px;
+   padding-bottom: 25px;
 }
 
 .btn:hover {
@@ -25,4 +36,13 @@ a:hover {
 
 .faicons:hover {
    color: rgb(175, 14, 14);
+}
+
+footer.footer {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.customFooter {
+   background-color: rgb(38, 221, 221);
 }
