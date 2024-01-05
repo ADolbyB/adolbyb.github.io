@@ -1,0 +1,112 @@
+h3, h4, h5 {
+   color: rgba(20, 252, 240, 0.856);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, h1 {
+   color: rgb(212, 182, 80);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.customNav {
+   padding-top: 18px;
+   padding-bottom: 18px;
+   background-color: cadetblue;
+}
+
+td:hover {
+	background-color: rgba(245, 255, 252, 0.349);         /** background color when hovering over a board square */
+}
+
+table {
+	font-size: 45px;
+	font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+}
+
+th, td {
+   border: double 8px rgb(223, 126, 16);
+   height: 120px;                                          /** Table grid overall height and width */
+   width: 120px;
+   color: rgb(21, 235, 235);                             /** table text color */
+}
+
+#tictactoe {
+   margin-right: auto;                                     /** Centers Tic Tac Toe Board **/
+   margin-left: auto;
+}
+
+a {
+   text-decoration: none;                                  /* remove link underlines */
+}
+
+a:hover {
+   color: rgb(175, 14, 14);                              /* Hover color for Footer Links */
+}
+
+.someLink:hover {                                          /* Nav Bar Button Text Hover Color */
+   color: white;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+   width: 100%;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 8px;
+}
+ 
+.contact100-form-btn {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 20px;
+   min-width: 150px;
+   height: 40px;
+   background-color: #3578b6;
+   border-radius: 25px;
+   font-size: 16px;
+   color: #fff;
+   line-height: 1.2;
+   text-transform: none;
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+ 
+.contact100-form-btn i {
+   -webkit-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+ 
+.contact100-form-btn:hover {
+   background-color: #02c54d;
+}
+ 
+.contact100-form-btn:hover i {
+   -webkit-transform: translateX(10px);
+   -moz-transform: translateX(10px);
+   -ms-transform: translateX(10px);
+   -o-transform: translateX(10px);
+   transform: translateX(10px);
+}
+
+.footerBG {
+   background-color: rgb(207, 192, 121);
+}
+
+.customFooter {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
