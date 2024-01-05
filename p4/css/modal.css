@@ -1,0 +1,72 @@
+/* Custom CSS for Popup Modal */
+
+/* Add margin to the top for vertical positioning */
+.modal {
+    margin-top: 10px;
+}
+
+.modal-dialog-centered { /* Center modal horizontally */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modal-content { /* Center modal vertically */
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #1f9aff, #26b76f);
+    border: 4px solid #5ec6cd;
+    border-radius: 15px;
+}
+
+.modal-content h3,
+.modal-content h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #18293f;
+}
+
+.modal-footer button {
+    border:1px solid black;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #283d71;
+}
+
+.modal-header button {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+.modal-footer button:hover,
+.modal-header button:hover {
+    color: #6471b7;
+}
+
+.modal-header {
+    position: relative;
+    padding-right: 40px;
+}
+
+@media (min-width: 991px) { /* Widescreen displays */
+    #miccModal .modal-dialog {
+      max-width: 525px;
+      margin: auto;
+      padding: 10px;
+      text-align: left;
+    }
+}
+  
+@media (max-width: 990px) { /* Mobile devices */
+    #miccModal .modal-dialog {
+      max-width: 350px;
+      margin: auto;
+      padding: 5px;
+      text-align: center;
+    }
+}
