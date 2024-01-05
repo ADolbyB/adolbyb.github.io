@@ -41,6 +41,10 @@ body {
    border: 2px solid rgb(124, 195, 223);
 }
 
+.darkMode #mytable {
+   border: 3px solid rgb(124, 195, 223);
+}
+
 .darkMode footer {
    border: 2px solid rgb(124, 195, 223);
 }
@@ -82,18 +86,21 @@ nav a:visited { color: #535353; }                      /* color of links when cl
 
 article {
    border: 2px solid black;
+   border-radius: 10px;
    margin: 20px;
    padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
 }
 
 section {
    border: 2px solid black;
+   border-radius: 10px;
    margin: 20px;
    padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
 }
 
 aside {
    border: 2px solid black;
+   border-radius: 10px;
    margin: 20px;
    padding: 5px 30px;                                    /* Order: Top/Bottom, Right/Left */
 }
@@ -131,9 +138,10 @@ h2 {
 .myPics {
    display: inline-block;
    background-color: cadetblue;
-   border: 3px double black;
-   padding: 20px;
+   border: 4px double black;
+   border-radius: 20px;
    height: 200px;
+   padding: 25px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -146,10 +154,12 @@ h2 {
    margin-top: 50px;
    width: 850px;
    border: 3px solid black;
+   border-radius: 10px;
 }
 
 #mytable td, th {
    border: 1px solid black;
+   border-radius: 6px;
 }
 
 .title_table {
@@ -158,6 +168,7 @@ h2 {
 
 footer {
    border: 2px solid black;
+   border-radius: 10px;
    margin-top: 20px;
    margin-right: 20px;
    margin-bottom: 20px;
