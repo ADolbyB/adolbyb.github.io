@@ -36,9 +36,13 @@ body {
    color: rgb(124, 195, 223);
 }
 
-.darkMode .myPics, .darkMode #mytable td, .darkMode #mytable th,
+.darkMode .myPics {
+   border: 4px double rgb(124, 195, 223);
+}
+
+.darkMode #mytable td, .darkMode #mytable th,
 .darkMode section, .darkMode article, .darkMode aside {
-   border: 2px solid rgb(124, 195, 223);
+   border: 1px solid rgb(124, 195, 223);
 }
 
 .darkMode #mytable {
