@@ -1,0 +1,3 @@
+name = "Python AI Checkers"
+# packages to import:
+packages = ["pygame"] # syntax: packages = ["arrr", "numberwang", "numpy"]
